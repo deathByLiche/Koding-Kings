@@ -22,6 +22,7 @@ namespace TriviaMaze
     {
         public MainWindow()
         {
+
             InitializeComponent();
         }
     }
