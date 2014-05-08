@@ -20,10 +20,24 @@ namespace TriviaMaze
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
-
             InitializeComponent();
+
+            this.gameScreen.Visibility = System.Windows.Visibility.Hidden;
+        }
+
+        private void playButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.titleScreen.Visibility = System.Windows.Visibility.Hidden;
+            this.gameScreen.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void doneButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.gameScreen.Visibility = System.Windows.Visibility.Hidden;
+            this.titleScreen.Visibility = System.Windows.Visibility.Visible;
         }
     }
 }
