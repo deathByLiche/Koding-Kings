@@ -25,19 +25,82 @@ namespace TriviaMaze
         {
             InitializeComponent();
 
-            this.gameScreen.Visibility = System.Windows.Visibility.Hidden;
+           /* this.hideGameScreen();
+            this.hideCreditsScreen();
+            this.hideResultsScreen();
+            this.hideHelpScreen();*/
         }
 
         private void playButton_Click(object sender, RoutedEventArgs e)
         {
-            this.titleScreen.Visibility = System.Windows.Visibility.Hidden;
+            this.hideTitleScreen();
             this.gameScreen.Visibility = System.Windows.Visibility.Visible;
         }
 
-        private void doneButton_Click(object sender, RoutedEventArgs e)
+        private void helpButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.hideTitleScreen();
+            this.helpScreen.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void creditsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.hideTitleScreen();
+            this.creditsScreen.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void showTitleScreen()
+        {
+            this.titleScreen.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void hideTitleScreen()
+        {
+            this.titleScreen.Visibility = System.Windows.Visibility.Hidden;
+        }
+
+        private void hideGameScreen()
         {
             this.gameScreen.Visibility = System.Windows.Visibility.Hidden;
+        }
+
+        private void hideHelpScreen()
+        {
+            this.helpScreen.Visibility = System.Windows.Visibility.Hidden;
+        }
+
+        private void hideCreditsScreen()
+        {
+            this.creditsScreen.Visibility = System.Windows.Visibility.Hidden;
+        }
+
+        private void hideResultsScreen()
+        {
+            this.resultsScreen.Visibility = System.Windows.Visibility.Hidden;
+        }
+
+        private void doneButtonGameScreen_Click(object sender, RoutedEventArgs e)
+        {
+            this.hideGameScreen();
             this.titleScreen.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void doneButtonHelpScreen_Click(object sender, RoutedEventArgs e)
+        {
+            this.hideHelpScreen();
+            this.showTitleScreen();
+        }
+
+        private void doneButtonCreditsScreen_Click(object sender, RoutedEventArgs e)
+        {
+            this.hideCreditsScreen();
+            this.showTitleScreen();
+        }
+
+        private void doneButtonResultsScreen_Click(object sender, RoutedEventArgs e)
+        {
+            this.hideResultsScreen();
+            this.showTitleScreen();
         }
     }
 }

@@ -5,9 +5,27 @@
     <Grid>
         <Canvas x:Name="titleScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744">
             <Button x:Name="playButton" Content="Play" Canvas.Left="320" Canvas.Top="313" Width="75" Click="playButton_Click"/>
+            <Button x:Name="helpButton" Content="How to Play" Canvas.Left="320" Canvas.Top="364" Width="75" Click="helpButton_Click" />
+            <Button x:Name="creditsButton" Content="Credits" Canvas.Left="320" Canvas.Top="416" Width="75" Click="creditsButton_Click"/>
+            <Label Content="Trivia Maze" Canvas.Left="216" Canvas.Top="60" Width="294" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center"/>
         </Canvas>
-        <Canvas x:Name="gameScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744">
-            <Button x:Name="doneButton" Content="Done" Canvas.Left="321" Canvas.Top="313" Width="75" Click="doneButton_Click"/>
+
+        <Canvas x:Name="gameScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
+            <Button x:Name="doneButtonGameScreen" Content="Done" Canvas.Left="320" Canvas.Top="313" Width="75" Click="doneButtonGameScreen_Click"/>
+        </Canvas>
+
+        <Canvas x:Name="helpScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
+            <Button x:Name="doneButtonHelpScreen" Content="Done" Canvas.Left="320" Canvas.Top="313" Width="75" Click="doneButtonHelpScreen_Click"/>
+            <Label Content="SUPER AWESOME INSTRUCTIONS GO HERE" Canvas.Left="64" Canvas.Top="48" Height="201" Width="613" FontSize="22"/>
+        </Canvas>
+
+        <Canvas x:Name="creditsScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
+            <Button x:Name="doneButtonCreditsScreen" Content="Done" Canvas.Left="320" Canvas.Top="313" Width="75" Click="doneButtonCreditsScreen_Click"/>
+            <Label Content="OUR NAMES AND STUFF GO HERE" Canvas.Left="158" Canvas.Top="152" Height="64" Width="402" FontSize="22"/>
+        </Canvas>
+
+        <Canvas x:Name="resultsScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
+            <Button x:Name="doneButtonResultsScreen" Content="Done" Canvas.Left="320" Canvas.Top="314" Width="75" Click="doneButtonResultsScreen_Click"/>
         </Canvas>
     </Grid>
 </Window>

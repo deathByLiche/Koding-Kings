@@ -10,3 +10,4 @@
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+\\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csprojResolveAssemblyReference.cache
