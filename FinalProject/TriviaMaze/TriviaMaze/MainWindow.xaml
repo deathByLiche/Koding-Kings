@@ -4,14 +4,16 @@
         Title="Trivia Maze" Height="550" Width="750" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Canvas x:Name="titleScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744">
-            <Button x:Name="playButton" Content="Play" Canvas.Left="320" Canvas.Top="313" Width="75" Click="playButton_Click"/>
-            <Button x:Name="helpButton" Content="How to Play" Canvas.Left="320" Canvas.Top="364" Width="75" Click="helpButton_Click" />
-            <Button x:Name="creditsButton" Content="Credits" Canvas.Left="320" Canvas.Top="416" Width="75" Click="creditsButton_Click"/>
-            <Label Content="Trivia Maze" Canvas.Left="216" Canvas.Top="60" Width="294" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Button x:Name="playButton" Content="Play" Canvas.Left="335" Canvas.Top="418" Width="75" Click="playButton_Click"/>
+            <Button x:Name="helpButton" Content="How to Play" Canvas.Left="335" Canvas.Top="445" Width="75" Click="helpButton_Click" />
+            <Button x:Name="creditsButton" Content="Credits" Canvas.Left="335" Canvas.Top="472" Width="75" Click="creditsButton_Click"/>
+            <Label Content="Trivia Maze" Canvas.Left="245" Canvas.Top="39" Width="242" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center" FontFamily="Estrangelo Edessa"/>
         </Canvas>
 
-        <Canvas x:Name="gameScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
-            <Button x:Name="doneButtonGameScreen" Content="Done" Canvas.Left="320" Canvas.Top="313" Width="75" Click="doneButtonGameScreen_Click"/>
+        <Canvas x:Name="gameScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden" Background="Beige" MouseDown="gameScreen_MouseDown">
+            <Button x:Name="doneButtonGameScreen" Content="Done" Canvas.Left="589" Canvas.Top="462" Width="75" Click="doneButtonGameScreen_Click"/>
+            <Canvas x:Name="mapCanvas" Height="370" Canvas.Left="10" Canvas.Top="10" Width="427" Background="Red"/>
+            <Canvas x:Name="questionDisplay" Height="370" Canvas.Left="461" Canvas.Top="10" Width="273" Background="Blue"/>
         </Canvas>
 
         <Canvas x:Name="helpScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
@@ -25,7 +27,7 @@
         </Canvas>
 
         <Canvas x:Name="resultsScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
-            <Button x:Name="doneButtonResultsScreen" Content="Done" Canvas.Left="320" Canvas.Top="314" Width="75" Click="doneButtonResultsScreen_Click"/>
+            <Button x:Name="doneButtonResultsScreen" Content="Done" Canvas.Left="320" Canvas.Top="250" Width="75" Click="doneButtonResultsScreen_Click"/>
         </Canvas>
     </Grid>
 </Window>

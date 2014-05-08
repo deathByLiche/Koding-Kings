@@ -20,21 +20,27 @@ namespace TriviaMaze
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Game game;
 
         public MainWindow()
         {
             InitializeComponent();
 
-           /* this.hideGameScreen();
-            this.hideCreditsScreen();
-            this.hideResultsScreen();
-            this.hideHelpScreen();*/
+            //setup background image
+            ImageSource isource = new BitmapImage((new Uri(@"images/titleScreen.png", UriKind.Relative)));
+            this.titleScreen.Background = new ImageBrush(isource);
+            //this.titleScreen.Background = new ImageBrush() { ImageSource = new BitmapImage((new Uri(@"images/titleScreen.png", UriKind.Relative))) };
+
+            this.game = new Game(this.gameScreen);
+            this.game.GameEnded += new EventHandler(this.showResultsScreen);
         }
 
         private void playButton_Click(object sender, RoutedEventArgs e)
         {
             this.hideTitleScreen();
             this.gameScreen.Visibility = System.Windows.Visibility.Visible;
+
+            this.game.promptForUsername();
         }
 
         private void helpButton_Click(object sender, RoutedEventArgs e)
@@ -52,6 +58,12 @@ namespace TriviaMaze
         private void showTitleScreen()
         {
             this.titleScreen.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void showResultsScreen(object sender, EventArgs e)
+        {
+            this.hideGameScreen();
+            this.resultsScreen.Visibility = System.Windows.Visibility.Visible;
         }
 
         private void hideTitleScreen()
@@ -102,5 +114,13 @@ namespace TriviaMaze
             this.hideResultsScreen();
             this.showTitleScreen();
         }
+
+        //for testing only
+
+        private void gameScreen_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.game.checkIfGameOver();
+        }
+
     }
 }

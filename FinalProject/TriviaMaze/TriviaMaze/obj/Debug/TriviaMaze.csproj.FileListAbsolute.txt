@@ -11,3 +11,5 @@
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\images\titleScreen.png
+\\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze_Content.g.cs
