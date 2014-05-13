@@ -16,3 +16,6 @@
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+C:\Users\Jeff\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
+C:\Users\Jeff\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
+C:\Users\Jeff\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
