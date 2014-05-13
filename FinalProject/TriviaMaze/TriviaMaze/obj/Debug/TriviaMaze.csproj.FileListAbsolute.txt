@@ -16,6 +16,7 @@
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\images\titleScreen.png
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.pdb
@@ -28,3 +29,7 @@ Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\Triv
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.g.resources
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
 Z:\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
+=======
+C:\Users\Jeff\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
+C:\Users\Jeff\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
+C:\Users\Jeff\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
