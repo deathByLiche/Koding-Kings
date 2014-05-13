@@ -31,3 +31,18 @@ C:\Users\CODYS\Desktop\Spring 2014\Software Engineering\TriviaMaze\TriviaMaze\Tr
 C:\Users\CODYS\Desktop\Spring 2014\Software Engineering\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.g.resources
 C:\Users\CODYS\Desktop\Spring 2014\Software Engineering\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
 C:\Users\CODYS\Desktop\Spring 2014\Software Engineering\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\images\titleScreen.png
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.pdb
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csprojResolveAssemblyReference.cache
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\MainWindow.baml
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\MainWindow.g.cs
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\App.g.cs
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze_Content.g.cs
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze_MarkupCompile.cache
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.g.resources
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
+C:\Users\CODYS\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
