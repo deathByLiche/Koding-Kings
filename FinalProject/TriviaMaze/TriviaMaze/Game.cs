@@ -10,7 +10,7 @@ namespace TriviaMaze
 {
     class Game
     {
-        private Canvas screen;
+        private Canvas screen; 
         //private Map map;
 
         public event EventHandler GameEnded;
