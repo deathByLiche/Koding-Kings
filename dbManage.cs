@@ -24,8 +24,11 @@ namespace TriviaMaze
         {
             sqlite_conn.Open();
             string answer1,a,answer2,b,answer3,c,answer4,d;
-            using (StreamReader sr = File.OpenText(@"C:\Users\CODYS\Desktop\Spring 2014\Software Engineering\TriviaMaze\questions.txt"))
-            {
+            //using (StreamReader sr = File.OpenText(@"C:\Users\CODYS\Desktop\Spring 2014\Software Engineering\TriviaMaze\questions.txt"))
+            string dir =System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string file = dir + @"/Questions/questions.txt";
+            StreamReader sr = new StreamReader(file);
+
                 string line;
                 string question;
                 while ((line = sr.ReadLine()) != null)
@@ -56,7 +59,7 @@ namespace TriviaMaze
                     AddParameter(sqlite_cmd, "@d", DbType.String, d);
                     sqlite_cmd.ExecuteNonQuery();
                     sqlite_conn.Close();
-                }
+
             }
         }
         private IDbDataParameter AddParameter(IDbCommand command, string paramName, DbType type, object value)
