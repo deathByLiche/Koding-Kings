@@ -10,15 +10,16 @@
             <Label Content="Trivia Maze" Canvas.Left="245" Canvas.Top="39" Width="242" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center" FontFamily="Estrangelo Edessa"/>
         </Canvas>
 
-        <Canvas x:Name="gameScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden" Background="Beige" MouseDown="gameScreen_MouseDown">
-            <Button x:Name="doneButtonGameScreen" Content="Done" Canvas.Left="589" Canvas.Top="462" Width="75" Click="doneButtonGameScreen_Click"/>
-            <Canvas x:Name="mapCanvas" Height="460" Canvas.Left="10" Canvas.Top="10" Width="460" Background="#00FF00"/>
-            <StackPanel x:Name="questionDisplay" Height="370" Canvas.Left="500" Canvas.Top="10" Width="210" Background="Blue">
+        <Canvas x:Name="gameScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden" Background="Gray" MouseDown="gameScreen_MouseDown">
+            <Canvas x:Name="mapCanvas" Height="460" Canvas.Left="10" Canvas.Top="10" Width="460" Background="DarkGray"/>
+            <StackPanel x:Name="questionDisplay" Height="460" Canvas.Left="500" Canvas.Top="10" Width="210">
                 <Label x:Name="category" Content="Category" Width="190" HorizontalContentAlignment="Center" Margin="10"/>
-                <RadioButton GroupName="answer" Content="Answer 1" IsChecked="True" HorizontalAlignment="Center"/>
-                <RadioButton GroupName="answer" Content="Answer 2" HorizontalAlignment="Center"/>
-                <RadioButton GroupName="answer" Content="Answer 3" HorizontalAlignment="Center"/>
-                <RadioButton GroupName="answer" Content="Answer 4" HorizontalAlignment="Center"/>
+                <TextBlock Width="190" HorizontalAlignment="Stretch" Margin="10"/>
+                <RadioButton GroupName="answer" IsChecked="True" HorizontalAlignment="Stretch" Margin="10"/>
+                <RadioButton GroupName="answer"  HorizontalAlignment="Stretch" Margin="10"/>
+                <RadioButton GroupName="answer"  HorizontalAlignment="Stretch" Margin="10"/>
+                <RadioButton GroupName="answer"  HorizontalAlignment="Stretch" Margin="10"/>
+                <Button x:Name="doneButtonGameScreen" Content="Answer" Width="75" Margin="30" Click="doneButtonGameScreen_Click"/>
             </StackPanel>
         </Canvas>
 
