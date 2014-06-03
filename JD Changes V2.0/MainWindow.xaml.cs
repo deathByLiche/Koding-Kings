@@ -21,6 +21,7 @@ namespace TriviaMaze
     public partial class MainWindow : Window
     {
         private Game game;
+        private dbManage db;
 
         public MainWindow()
         {
@@ -29,9 +30,13 @@ namespace TriviaMaze
             //setup background image
             ImageSource isource = new BitmapImage((new Uri(@"images/titleScreen.png", UriKind.Relative)));
             this.titleScreen.Background = new ImageBrush(isource);
+            //this.helpScreen.Background = new ImageBrush(isource);
+            //this.creditsScreen.Background = new ImageBrush(isource);
+            //this.resultsScreen.Background = new ImageBrush(isource);
 
             //setup gameScreen
-            this.game = new Game(this.gameScreen);
+            this.db = new dbManage();
+            this.game = new Game(this.gameScreen, this.db);
             this.game.GameEnded += new EventHandler(this.showResultsScreen);
 
         }
@@ -111,7 +116,7 @@ namespace TriviaMaze
         {
             this.hideResultsScreen();
             this.showTitleScreen();
-            this.game = new Game(this.gameScreen);
+            this.game = new Game(this.gameScreen, this.db);
             this.game.GameEnded += new EventHandler(this.showResultsScreen);
         }
 

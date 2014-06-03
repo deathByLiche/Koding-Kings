@@ -25,16 +25,27 @@
 
         <Canvas x:Name="helpScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
             <Button x:Name="doneButtonHelpScreen" Content="Done" Canvas.Left="320" Canvas.Top="313" Width="75" Click="doneButtonHelpScreen_Click"/>
-            <Label Content="SUPER AWESOME INSTRUCTIONS GO HERE" Canvas.Left="64" Canvas.Top="48" Height="201" Width="613" FontSize="22"/>
+            <Label Content="Trivia Maze" HorizontalAlignment="Left" Height="46" Margin="57,10,0,0" VerticalAlignment="Top" Width="166" FontFamily="Stencil" FontWeight="Bold" FontSize="24"/>
+            <Label Content="Instructions" HorizontalAlignment="Left" Height="39" Margin="95,56,0,0" VerticalAlignment="Top" Width="94" FontFamily="Stencil"/>
+            <Label Content="The Player will need to click on Maze block which &#xD;&#xA;he/she wishes to move to in order too reach the &#xD;&#xA;end of the maze.&#xD;&#xA; &#xD;&#xA;In order to move, the player will be asked a question &#xD;&#xA;where if answered incorrectly the door will be &#xD;&#xA;locked if answered correctly than the door will be &#xD;&#xA;opened and the player will move" HorizontalAlignment="Left" Height="125" Margin="10,79,0,0" VerticalAlignment="Top" Width="271"/>
         </Canvas>
 
         <Canvas x:Name="creditsScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
-            <Button x:Name="doneButtonCreditsScreen" Content="Done" Canvas.Left="320" Canvas.Top="313" Width="75" Click="doneButtonCreditsScreen_Click"/>
-            <Label Content="OUR NAMES AND STUFF GO HERE" Canvas.Left="158" Canvas.Top="152" Height="64" Width="402" FontSize="22"/>
+            <Label Content="Trivia Maze" HorizontalAlignment="Left" Height="46" Margin="114,26,0,0" VerticalAlignment="Top" Width="166" FontFamily="Stencil" FontWeight="Bold" FontSize="24"/>
+            <Label Content="GAME CREDITS" HorizontalAlignment="Left" Height="29" Margin="141,72,0,0" VerticalAlignment="Top" Width="111" FontWeight="Bold" FontSize="12"/>
+            <Label Content="&#x9;       Jeff Clark &#xD;&#xA;&#x9;        JD Hall&#xD;&#xA;&#x9;    Gilberto Lopez&#xD;&#xA;&#x9;   Cody Demianew" HorizontalAlignment="Left" Height="61" Margin="91,120,0,0" VerticalAlignment="Top" Width="208"/>
+            <Label Content="GAME DEVELOPERS" HorizontalAlignment="Left" Height="24" Margin="133,101,0,0" VerticalAlignment="Top" Width="126" FontWeight="Bold"/>
+            <Label Content="PROGRAMMERS" HorizontalAlignment="Left" Height="30" Margin="143,186,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold"/>
+            <Label Content="&#x9;       Jeff Clark &#xD;&#xA;&#x9;        JD Hall&#xD;&#xA;&#x9;    Gilberto Lopez&#xD;&#xA;&#x9;   Cody Demianew" HorizontalAlignment="Left" Height="69" Margin="91,203,0,0" VerticalAlignment="Top" Width="157"/>
+            <Button Content="Close" Height="22" Canvas.Left="308" Canvas.Top="300" Width="77" Click="doneButtonCreditsScreen_Click"/>
         </Canvas>
 
         <Canvas x:Name="resultsScreen" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="744" Visibility="Hidden">
-            <Button x:Name="doneButtonResultsScreen" Content="Done" Canvas.Left="320" Canvas.Top="250" Width="75" Click="doneButtonResultsScreen_Click"/>
+            <Canvas x:Name="ResultColor" HorizontalAlignment="Left" Height="292" Margin="0,0,-0.2,0" VerticalAlignment="Top" Width="385">
+                <Button x:Name="CloseButton" Content="Done" Height="25" Canvas.Left="304" Canvas.Top="257" Width="71" Click="doneButtonResultsScreen_Click"/>
+                <Label x:Name="ResultName" Content="GAME OVER" Height="39" Canvas.Left="134" Canvas.Top="112" Width="129" FontSize="16" FontWeight="Bold"/>
+            </Canvas>
+            <Label Content="Trivia Maze" HorizontalAlignment="Left" Height="46" Margin="114,32,0,0" VerticalAlignment="Top" Width="166" FontFamily="Stencil" FontWeight="Bold" FontSize="24"/>
         </Canvas>
     </Grid>
 </Window>
