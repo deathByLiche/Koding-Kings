@@ -1,0 +1,13 @@
+﻿<Window x:Class="TriviaMaze.ResultScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ResultScreen" Height="318.367" Width="390.816">
+    <Grid>
+        <Canvas x:Name="ResultColor" HorizontalAlignment="Left" Height="292" Margin="0,0,-0.2,0" VerticalAlignment="Top" Width="385">
+            <Button x:Name="CloseButton" Content="Close" Height="25" Canvas.Left="304" Canvas.Top="257" Width="71" Click="Button_Click"/>
+            <Label x:Name="ResultName" Content="GAME OVER" Height="39" Canvas.Left="134" Canvas.Top="112" Width="129" FontSize="16" FontWeight="Bold"/>
+        </Canvas>
+        <Label Content="Trivia Maze" HorizontalAlignment="Left" Height="46" Margin="114,32,0,0" VerticalAlignment="Top" Width="166" FontFamily="Stencil" FontWeight="Bold" FontSize="24"/>
+
+    </Grid>
+</Window>

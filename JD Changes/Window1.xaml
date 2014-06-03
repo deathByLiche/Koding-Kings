@@ -1,0 +1,17 @@
+﻿<Window x:Name="CreditScreenWindow" x:Class="TriviaMaze.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Credits" Height="341.379" Width="401.724" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0.2,0.2">
+        <Label Content="Trivia Maze" HorizontalAlignment="Left" Height="46" Margin="114,26,0,0" VerticalAlignment="Top" Width="166" FontFamily="Stencil" FontWeight="Bold" FontSize="24"/>
+        <Label Content="GAME CREDITS" HorizontalAlignment="Left" Height="29" Margin="141,72,0,0" VerticalAlignment="Top" Width="111" FontWeight="Bold" FontSize="12"/>
+        <Label Content="&#x9;       Jeff Clark &#xD;&#xA;&#x9;        JD Hall&#xD;&#xA;&#x9;    Gilberto Lopez&#xD;&#xA;&#x9;   Cody Demianew" HorizontalAlignment="Left" Height="61" Margin="91,120,0,0" VerticalAlignment="Top" Width="208"/>
+        <Label Content="GAME DEVELOPERS" HorizontalAlignment="Left" Height="24" Margin="133,101,0,0" VerticalAlignment="Top" Width="126" FontWeight="Bold"/>
+        <Label Content="PROGRAMMERS" HorizontalAlignment="Left" Height="30" Margin="143,186,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold"/>
+        <Label Content="&#x9;       Jeff Clark &#xD;&#xA;&#x9;        JD Hall&#xD;&#xA;&#x9;    Gilberto Lopez&#xD;&#xA;&#x9;   Cody Demianew" HorizontalAlignment="Left" Height="69" Margin="91,203,0,0" VerticalAlignment="Top" Width="157"/>
+        <Canvas x:Name="bgColor" HorizontalAlignment="Left" Height="314" Margin="0,1,0,0" VerticalAlignment="Top" Width="395">
+            <Button Content="Close" Height="22" Canvas.Left="308" Canvas.Top="282" Width="77" Click="Button_Click"/>
+        </Canvas>
+
+    </Grid>
+</Window>
