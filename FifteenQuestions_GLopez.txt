@@ -1,0 +1,77 @@
+In the revenge of the nerds, At the end of the movie what song is being heard 
+as they are all chanting nerds, nerds, nerds?
+1 We Are the Champions. 
+0 Eye of the tiger
+0 Gonna fly now
+0 Heat of the moment
+In the Revenge of the nerds, What did the nerds put in the Alpha-Betas Jocks?
+1 Liquid Heat
+0 Dry Ice
+0 Ice 
+0 Honey
+In the Revenge of the nerds, what did Poindexter give Tokashi before the race?
+1 Tri-Chloro-nectalin
+0 Advil
+0 Ibuporfin
+0 Aleve
+In the revenge of the nerds, during the carnival which contest did Lamar Latrell win?
+1 Javelin throw
+0 Hurdling 
+0 shot put 
+0 relay race
+In the revenge of the nerds, what did Wormser say was his hobby?
+1 Aerodynamics
+0 Astronomy
+0 Mechanical Engineering
+0 OceanOgrapher
+In the revenge of the nerds, what did Booger bring out during the party to liven things up?
+1 Wonder joints
+0 cigar
+0 Cuban cigar
+0 Beer
+In the revenge of the nerds, Who were the nerds trying to impress at their party?
+1 U.N. Jefferson
+0 Suzy
+0 Flo
+0 Joanne
+In the revenge of the nerds, In what contest did Booger defeat Ogre?
+1 Belching
+0 Coding
+0 Jock straps
+0 Computer Driven Musical Porduction
+In the revenge of the nerds, What fraternity did the nerds become a part of?
+1 Lamda Lamda Lamda 
+0 Alpha Betas
+0 Lamda Lamda Alpha
+0 Lamda Lamda Beta
+In the revenge of the nerds, What is the name of the quarterback of the Adams' football team?
+1 Stan Gable
+0 Tom Brady 
+0 Walter Payton
+0 Jerry Rice
+In the revenge of the nerds, At what University was the movie filmed?
+1 University of Arizona
+0 Eastern Washington University
+0 Washington State University
+0 Texas State University
+In the revenge of the nerds, Where were the nerds forced to live after the Alpha-Betas 
+took their dorm?
+1 Gymnasium
+0 Football Field
+0 Janitors Room 
+0 Track Field
+In the revenge of the nerds, What instrument does Poindexter play?	
+1 Violin. 
+0 Guitar
+0 Drums
+0 Pianos
+In the revenge of the nerds, What did the Alpha-Betas say caused their house to burn down?
+1 Faulty wiring. 
+0 Aluminum in Microwave 
+0 Lightning Strinke
+0 Candles
+In the revenge of the nerds, Who has allergies when the dean asks while they are living in the gym?	
+1 Pointdexter
+0 Ogre
+0 Lewis
+0 Booge
