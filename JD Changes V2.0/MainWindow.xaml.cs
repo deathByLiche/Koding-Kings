@@ -37,7 +37,7 @@ namespace TriviaMaze
             //setup gameScreen
             this.db = new dbManage();
             this.game = new Game(this.gameScreen, this.db);
-            this.game.GameEnded += new EventHandler(this.showResultsScreen);
+            this.game.GameEnded += this.showResultsScreen;
 
         }
 
@@ -64,10 +64,16 @@ namespace TriviaMaze
             this.titleScreen.Visibility = System.Windows.Visibility.Visible;
         }
 
-        private void showResultsScreen(object sender, EventArgs e)
+        private void showResultsScreen(object sender, Boolean b)
         {
             this.hideGameScreen();
             this.resultsScreen.Visibility = System.Windows.Visibility.Visible;
+            Canvas temp = (Canvas)this.resultsScreen.Children[0];
+            Label temp2 = (Label)temp.Children[1];
+            if(b)
+                temp2.Content = "Congratulations You Win!";
+            else
+                temp2.Content = "You Suck! Go Die of Shame!";
         }
 
         private void hideTitleScreen()
@@ -117,7 +123,7 @@ namespace TriviaMaze
             this.hideResultsScreen();
             this.showTitleScreen();
             this.game = new Game(this.gameScreen, this.db);
-            this.game.GameEnded += new EventHandler(this.showResultsScreen);
+            this.game.GameEnded += this.showResultsScreen;
         }
 
         private void gameScreen_MouseDown(object sender, MouseButtonEventArgs e)

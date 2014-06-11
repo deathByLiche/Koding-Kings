@@ -19,16 +19,17 @@ namespace TriviaMaze
         private Player player;
         private dbManage dbManager;
         private Question[] questions;
+        private Boolean canWin = true;
 
-        public event EventHandler GameEnded;
+        public event EventHandler<Boolean> GameEnded;
 
-        public Game(Canvas screen)
+        public Game(Canvas screen, dbManage db)
         {
             this.screen = screen;
             this.mapCanvas = (Canvas)this.screen.Children[0];
             this.questionDisplay = (StackPanel)this.screen.Children[1];
             this.questionDisplay.Visibility = Visibility.Hidden;
-            this.dbManager = new dbManage();
+            this.dbManager = db;
             this.questions = this.dbManager.getQuestions();
             MazeFactory mazeFactory = new MazeFactory();
             this.maze = mazeFactory.getMaze(5);
@@ -39,10 +40,18 @@ namespace TriviaMaze
 
         private void checkIfGameOver()
         {
-            if (this.player.getHorizontal() == 4 && this.player.getVertical() == 4)//if they won/lose
+            if (this.player.getHorizontal() == 4 && this.player.getVertical() == 4)
             {
                 if (this.GameEnded != null)
-                    this.GameEnded(this, new EventArgs());
+                    this.GameEnded(this, true);
+            }
+
+            this.mazeTraversal();
+
+            if (!this.canWin)
+            {
+                if (this.GameEnded != null)
+                    this.GameEnded(this, false);
             }
         }
 
@@ -290,7 +299,6 @@ namespace TriviaMaze
                     this.player.CurrentDoor.State = 1;
                     this.changeDoorColor(this.player.CurrentDoor, doorColorUnlocked);
                     this.player.move((int)this.player.CurrentMovement.X, (int)this.player.CurrentMovement.Y);
-                    this.checkIfGameOver();
                 }
                 else if(rb.IsChecked.Value)
                 {
@@ -298,8 +306,10 @@ namespace TriviaMaze
                     this.changeDoorColor(this.player.CurrentDoor, doorColorLocked);
                     //call method for maze traversal to see fi player loses
                 }
+
             }
 
+            this.checkIfGameOver();
             this.questionDisplay.Visibility = Visibility.Hidden;
         }
 
@@ -317,5 +327,102 @@ namespace TriviaMaze
             }
         }
 
+        public void mazeTraversal()
+        {
+            int [][] winnable = new int [(maze.Length * 2) - 1][];
+            int x = 0, y = 0;
+
+            for (; x < winnable.Length; x++)
+            {
+                int[] ara = new int[(maze.Length * 2) - 1];
+                for (; y < winnable.Length; y++)
+                   ara[y] = -1;
+                winnable[x] = ara;
+            }
+            x = 0;
+            y = 0;
+
+            foreach (Room[] room in this.maze)
+            {
+                foreach (Room r in room)
+                {
+                    winnable[(x * 2)][(y * 2)] = 1;
+
+                    //set East Door
+                    if (y < (this.maze.Length - 1))
+                    {
+                        if (r.Doors[1].State != 2)
+                            winnable[x * 2][y * 2 + 1] = 1;
+                        else
+                            winnable[x * 2][y * 2 + 1] = 0;
+                    }
+
+
+                    //set South Door
+                    if (x < (this.maze.Length - 1))
+                    {
+                        if (r.Doors[2].State != 2)
+                            winnable[x * 2 + 1][y * 2] = 1;
+                        else
+                            winnable[x * 2 + 1][y * 2] = 0;
+                    }
+
+                    y++;
+                }
+                y = 0;
+                x++;
+            }
+
+            winnable[maze.Length * 2 - 2][maze.Length * 2 - 2] = 5;
+
+            this.canWin = false;
+            mazeTraversal(winnable, player.getHorizontal() * 2, player.getVertical() * 2);
+
+            //printing for testing
+            Console.WriteLine("Printing maze traversale Array:");
+            for (int i = 0; i < winnable.Length; i++)
+            {
+                for (int t = 0; t < winnable[i].Length; t++)
+                {
+                    Console.Write(" " + winnable[i][t]);
+                }
+                Console.WriteLine();
+            }
+        }
+
+        private void mazeTraversal(int[][] winnable, int positionX, int positionY)
+        {
+            if (winnable[positionX][positionY] == 5)
+            {
+                Console.WriteLine("Winnable!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                this.canWin = true;
+                return;
+            }
+
+            //Move East
+            if (positionX + 2 < (maze.Length * 2 - 1) && winnable[positionX + 1][positionY] != 0 && winnable[positionX + 2][positionY] != 3)
+            {
+                winnable[positionX][positionY] = 3;
+                mazeTraversal(winnable, positionX + 2, positionY);
+            }
+            //Move South
+            if (positionY + 2 < (maze.Length * 2 - 1) && winnable[positionX][positionY + 1] != 0 && winnable[positionX][positionY + 2] != 3)
+            {
+                winnable[positionX][positionY] = 3;
+                mazeTraversal(winnable, positionX, positionY + 2);
+            }
+            //Move West
+            if (positionX - 2 >= 0 && winnable[positionX - 1][positionY] != 0 && winnable[positionX - 2][positionY] != 3)
+            {
+                winnable[positionX][positionY] = 3;
+                mazeTraversal(winnable, positionX - 2, positionY);
+            }
+            //Move North
+            if (positionY - 2 >= 0 && winnable[positionX][positionY - 1] != 0 && winnable[positionX][positionY - 2] != 3)
+            {
+                winnable[positionX][positionY] = 3;
+                mazeTraversal(winnable, positionX, positionY - 2);
+            }
+        }
     }
 }
