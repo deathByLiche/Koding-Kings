@@ -11,3 +11,16 @@
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
 \\vmware-host\Shared Folders\Desktop\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe.config
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.exe
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.pdb
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.exe
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\bin\Debug\TriviaMaze.pdb
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csprojResolveAssemblyReference.cache
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\MainWindow.baml
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\MainWindow.g.cs
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\App.g.cs
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze_MarkupCompile.cache
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.g.resources
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.Properties.Resources.resources
+C:\Users\glopez\Documents\GitHub\Koding-Kings\FinalProject\TriviaMaze\TriviaMaze\obj\Debug\TriviaMaze.csproj.GenerateResource.Cache
