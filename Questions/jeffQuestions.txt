@@ -8,32 +8,32 @@ Sirius Snape
 Albus Dumbledore
 0
 Harry Potter: What spell did Voldemort cast on Harry Potter when he was a baby?
+Avada Kedavra
+1
 Crucio
 0
 Expelliarmus
 0
-Avada Kedavra
-1
 Imperio
 0
 Harry Potter: How did Voldemort try to gain immortality in Harry Potter and the Sorcerer's Stone?
+Unicorn blood
+1
 Potions
 0
 Spells
 0
-Unicorn blood
-1
 He didn't try for immortality.
 0
 Harry Potter: What was the name of Harry's pet owl?
+Hedwig
+1
 Scabbers
 0
 Crookshanks
 0
 Trevor
 0
-Hedwig
-1
 Harry Potter: In the final battle of Hogwarts, who did Molly Weasley fight?
 Bellatrix Lastrange
 1
@@ -44,28 +44,28 @@ Nymphadora Tonks
 Narcissa Malfoy
 0
 Alcohol: What is the best selling vodka in the United States?
-Skyy
-0
 Smirnoff
 1
+Skyy
+0
 New Amsterdam
 0
 Absolut
 0
 Alcohol: What microbrewery teamed up with Voodoo Doughnuts for the "Voodoo Doughnut Pretzel, Raspberry & Chocolate Ale" special release?
+Rogue
+1
 Ninkasi
 0
 No-Li
 0
 Stone
 0
-Rogue
-1
 Alcohol: What spirit is distilled in a "dry" county?
-Jose Cuervo
-0
 Jack Daniel's
 1
+Jose Cuervo
+0
 Jim Beam
 0
 Jägermeister
@@ -80,23 +80,23 @@ Tequila
 Gin
 0
 Alcohol: How is Guinness stout commonly carbonated?
-Carbon dioxide
-0
 Nitrogen
 1
+Carbon dioxide
+0
 Helium
 0
 It isn't carbonated.
 0
 Sports: What NFL player is the cover player for Madden 15?
+Richard Sherman
+1
 Cam Newton
 0
 Colin Kaepernick
 0
 Peyton Manning
 0
-Richard Sherman
-1
 Sports: What two teams are playing for the Stanley Cup?
 LA Kings and NY Rangers
 1
@@ -107,28 +107,28 @@ Edmonton Oilers and Buffalo Sabres
 Washington Capitals and Pittsburgh Penguins
 0
 Sports: What NBA team has "the big three"?
+Miami Heat
+1
 Portland Trailblazers
 0
 Oklahoma City Thunder
 0
-Miami Heat
-1
 San Antonio Spurs
 0
 Sports: What was the last horse to win the Triple Crown?
+Affirmed
+1
 California Chrome
 0
 Secretariat
 0
 Seattle Slew
 0
-Affirmed
-1
 Sports: What team won the World Series in 2013?
-New York Yankees
-0
 Boston Red Sox
 1
+New York Yankees
+0
 San Francisco Giants
 0
 St. Louis Cardinals
