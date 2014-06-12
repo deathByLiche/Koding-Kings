@@ -1,0 +1,135 @@
+Harry Potter: Who was "He-Who-Must-Not-Be-Named"?
+Voldemort
+1
+Harry Potter
+0
+Sirius Snape
+0
+Albus Dumbledore
+0
+Harry Potter: What spell did Voldemort cast on Harry Potter when he was a baby?
+Crucio
+0
+Expelliarmus
+0
+Avada Kedavra
+1
+Imperio
+0
+Harry Potter: How did Voldemort try to gain immortality in Harry Potter and the Sorcerer's Stone?
+Potions
+0
+Spells
+0
+Unicorn blood
+1
+He didn't try for immortality.
+0
+Harry Potter: What was the name of Harry's pet owl?
+Scabbers
+0
+Crookshanks
+0
+Trevor
+0
+Hedwig
+1
+Harry Potter: In the final battle of Hogwarts, who did Molly Weasley fight?
+Bellatrix Lastrange
+1
+Minerva McGonagall
+0
+Nymphadora Tonks
+0
+Narcissa Malfoy
+0
+Alcohol: What is the best selling vodka in the United States?
+Skyy
+0
+Smirnoff
+1
+New Amsterdam
+0
+Absolut
+0
+Alcohol: What microbrewery teamed up with Voodoo Doughnuts for the "Voodoo Doughnut Pretzel, Raspberry & Chocolate Ale" special release?
+Ninkasi
+0
+No-Li
+0
+Stone
+0
+Rogue
+1
+Alcohol: What spirit is distilled in a "dry" county?
+Jose Cuervo
+0
+Jack Daniel's
+1
+Jim Beam
+0
+Jägermeister
+0
+Alcohol: What alcohol is the primary ingredient in a Mai-Tai?
+Rum
+1
+Vodka
+0
+Tequila
+0
+Gin
+0
+Alcohol: How is Guinness stout commonly carbonated?
+Carbon dioxide
+0
+Nitrogen
+1
+Helium
+0
+It isn't carbonated.
+0
+Sports: What NFL player is the cover player for Madden 15?
+Cam Newton
+0
+Colin Kaepernick
+0
+Peyton Manning
+0
+Richard Sherman
+1
+Sports: What two teams are playing for the Stanley Cup?
+LA Kings and NY Rangers
+1
+Detroit Red Wings and Boston Bruins
+0
+Edmonton Oilers and Buffalo Sabres
+0
+Washington Capitals and Pittsburgh Penguins
+0
+Sports: What NBA team has "the big three"?
+Portland Trailblazers
+0
+Oklahoma City Thunder
+0
+Miami Heat
+1
+San Antonio Spurs
+0
+Sports: What was the last horse to win the Triple Crown?
+California Chrome
+0
+Secretariat
+0
+Seattle Slew
+0
+Affirmed
+1
+Sports: What team won the World Series in 2013?
+New York Yankees
+0
+Boston Red Sox
+1
+San Francisco Giants
+0
+St. Louis Cardinals
+0
